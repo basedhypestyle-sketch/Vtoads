@@ -1,17 +1,22 @@
 {
-  "name": " based vicetoads ",
+  "name": "based-vice-toads-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "hardhat": "hardhat"
   },
   "dependencies": {
-    "ethers": "^6.9.0",
-    "next": "14.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "ethers": "^6.8.0",
+    "lowdb": "^3.0.0",
+    "web3modal": "^2.0.0",
+    "node-fetch": "^2.6.7"
   },
-  "engines": { "node": "22.x" }
+  "devDependencies": {
+    "hardhat": "^2.17.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.8.0"
+  }
 }
