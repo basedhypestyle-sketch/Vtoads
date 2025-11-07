@@ -1,0 +1,7 @@
+Fixed package.json:
+- Locked Next.js dependency to 14.3.1 (avoids ETARGET when Vercel's npm can't find requested version)
+- Set engines.node to 18.x for Vercel compatibility
+
+If deployment still fails, try:
+- Clear Vercel build cache or trigger a new deployment with "Clear cache and redeploy".
+- Check Vercel's Node/npm version settings in Project > Settings > General > Build & Development Settings.
